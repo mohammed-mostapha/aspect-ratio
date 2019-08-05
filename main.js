@@ -12,54 +12,54 @@ $("#toggle-button").click(function(){
 
 
 
-var myIndex2019 = 0;
-carousel2019();
+// var myIndex2019 = 0;
+// carousel2019();
 
-function carousel2019() {
-  var i2019;
-  var x2019 = document.getElementsByClassName("p-2019");
-  for (i = 0; i < x2019.length; i++) {
-    x2019[i].style.display = "none";  
-  }
-  myIndex2019++;
-  if (myIndex2019 > x2019.length) {myIndex2019 = 1}    
-  x2019[myIndex2019-1].style.display = "block";  
-  setTimeout(carousel2019, 2000); // Change image every 2 seconds
-}
-
-
-
-var myIndex2018 = 0;
-carousel2018();
-
-function carousel2018() {
-  var i2018;
-  var x2018 = document.getElementsByClassName("p-2018");
-  for (i = 0; i < x2018.length; i++) {
-    x2018[i].style.display = "none";  
-  }
-  myIndex2018++;
-  if (myIndex2018 > x2018.length) {myIndex2018 = 1}    
-  x2018[myIndex2018-1].style.display = "block";  
-  setTimeout(carousel2018, 2000); 
-}
+// function carousel2019() {
+//   var i2019;
+//   var x2019 = document.getElementsByClassName("p-2019");
+//   for (i = 0; i < x2019.length; i++) {
+//     x2019[i].style.display = "none";  
+//   }
+//   myIndex2019++;
+//   if (myIndex2019 > x2019.length) {myIndex2019 = 1}    
+//   x2019[myIndex2019-1].style.display = "block";  
+//   setTimeout(carousel2019, 2000); // Change image every 2 seconds
+// }
 
 
 
-var myIndex2017 = 0;
-carousel2017();
+// var myIndex2018 = 0;
+// carousel2018();
 
-function carousel2017() {
-  var i2017;
-  var x2017 = document.getElementsByClassName("p-2017");
-  for (i = 0; i < x2017.length; i++) {
-    x2017[i].style.display = "none";  
-  }
-  myIndex2017++;
-  if (myIndex2017 > x2017.length) {myIndex2017 = 1}    
-  x2017[myIndex2017-1].style.display = "block";  
-  setTimeout(carousel2017, 2000);
-}
+// function carousel2018() {
+//   var i2018;
+//   var x2018 = document.getElementsByClassName("p-2018");
+//   for (i = 0; i < x2018.length; i++) {
+//     x2018[i].style.display = "none";  
+//   }
+//   myIndex2018++;
+//   if (myIndex2018 > x2018.length) {myIndex2018 = 1}    
+//   x2018[myIndex2018-1].style.display = "block";  
+//   setTimeout(carousel2018, 2000); 
+// }
+
+
+
+// var myIndex2017 = 0;
+// carousel2017();
+
+// function carousel2017() {
+//   var i2017;
+//   var x2017 = document.getElementsByClassName("p-2017");
+//   for (i = 0; i < x2017.length; i++) {
+//     x2017[i].style.display = "none";  
+//   }
+//   myIndex2017++;
+//   if (myIndex2017 > x2017.length) {myIndex2017 = 1}    
+//   x2017[myIndex2017-1].style.display = "block";  
+//   setTimeout(carousel2017, 2000);
+// }
 
 
 

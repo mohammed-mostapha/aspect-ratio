@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 
 html {
-    height: 100%;
+    height: 100% !important;
     width: 100%;
     overflow: hidden !important;
     margin: 0;
@@ -12,21 +12,23 @@ html {
     height: 100% !important;
     display: flex;
     flex-direction: column;
-    flex-grow: 1 !important;
+    flex-grow: 1;
+    justify-content: space-between;
+
 }
 
 
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100% !important;
     font-family:'Century Gothic','Futura','Didact Gothic',san-serif;
     font-size: 2rem;
     box-sizing: border-box;
-    flex-direction: column;
     overflow-x: hidden !important;
-    overflow-y: hidden !important;
+    overflow-y: visible !important;
 }
+
 
 
 
@@ -47,11 +49,11 @@ header {
 
 .main {
     display: flex;
-    flex-direction: column;
-    flex-grow: 1 !important;
-
+    height: 600px;
+    border: 2px solid red;
+    box-sizing: border-box;
+    transform: scale(0.8);
 }
-
 
 .logo {
     height: 6rem;
@@ -319,9 +321,23 @@ header {
 
 
 .preview-container {
-    height: 70%;
+    width: 100%;
+    padding-top: 56.25%;
+    background: pink;
+    border: 2px solid tomato;
+    align-self: center;
     box-sizing: border-box;
+    transform: scale(0.8);
 }
+
+/* 
+.preview-2019 {
+     background: url('images/main01.jpg');
+     background-size: cover; 
+     position: relative;
+     width: 100%; 
+}  */
+
 
 
 .row {
@@ -329,95 +345,18 @@ header {
     margin: 0 !important;
 }
 
-.row-top {
-    height: 15%;
-}
-
-.row-middle {
-    height: 70%;
-}
-
-.row-bottom {
-    height: 15%;
-}
 
 
 
-
-.year-container {
-    height: 55%;
-    width: 100%;
-    align-self: center;
-}
-
-
-@media only screen and (min-width: 640px) {
-    .year-container {
-        height: 55%;
-    }
-
-}
-
-.preview-2019 {
-    width: 90%;
-    height: 100%;
-    display: block;
-    
-}
-
-
-
-.preview-2018 {
-    width: 100%;
-    height: 100%;
-    display: none;
-}
-
-
-.preview-2017 {
-    width: 100%;
-    height: 100%;
-    display: none;
-    
-}
-
-
-.p-2019 img, .p-2018 img, .p-2017 img {
-    width: 100%;
-    height: 100%;
-}
-
-
-.p-2019, .p-2018, .p-2017 {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-
-
-
-.caption {
-    text-align: right;
-    position: absolute;
-    top: 10%;
-    right: 0;
-    color: #fff;
-    background-color: rgb(0, 0,0, 0.7);
-}
 
 
 
 
 .slick-container {
-    height: 30%;
+    height: 15%;
     box-sizing: border-box;
     overflow: visible !important;
-    position: relative;
-    bottom: 0 !important;
-
-
-
+    border: 2px solid green;
 }
 
 .slick-prev {
@@ -499,6 +438,7 @@ header {
 .slick-item-2 {
     background: url('images/main02.jpg');
     background-size: cover;
+
 }
 
 .slick-item-3 {
