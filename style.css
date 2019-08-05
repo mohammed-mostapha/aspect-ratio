@@ -504,3 +504,8 @@ header {
     background: url('images/main07.jpg');
     background-size: cover;
 }
+
+
+* {
+    border: none !important;
+}
