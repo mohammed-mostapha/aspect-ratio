@@ -323,20 +323,19 @@ header {
 .preview-container {
     width: 100%;
     padding-top: 56.25%;
-    background: pink;
+    background-image: url('/images/main01.jpg');
+    background-size: cover;
     border: 2px solid tomato;
     align-self: center;
     box-sizing: border-box;
     /* transform: scale(0.8); */
 }
 
-/* 
-.preview-2019 {
-     background: url('images/main01.jpg');
-     background-size: cover; 
-     position: relative;
-     width: 100%; 
-}  */
+@media screen and (orientation: landscape) {
+    .preview-container {
+        transform: scale(0.8);
+    }
+}
 
 
 
@@ -344,12 +343,6 @@ header {
     width: 100% !important;
     margin: 0 !important;
 }
-
-
-
-
-
-
 
 
 .slick-container {
@@ -436,18 +429,18 @@ header {
 
 
 .slick-item-2 {
-    background: url('images/main02.jpg');
+    background: url('images/main01.jpg');
     background-size: cover;
 
 }
 
 .slick-item-3 {
-    background: url('images/main05.jpg');
+    background: url('images/main02.jpg');
     background-size: cover;
 }
 
 .slick-item-4 {
-    background: url('images/main04.jpg');
+    background: url('images/main03.jpg');
     background-size: cover;
 }
 
@@ -464,17 +457,17 @@ header {
 }
 
 .slick-item-6 {
-    background: url('images/main12.jpg');
+    background: url('images/main04.jpg');
     background-size: cover;
 }
 
 .slick-item-7 {
-    background: url('images/main13.jpg');
+    background: url('images/main05.jpg');
     background-size: cover;
 }
 
 .slick-item-8 {
-    background: url('images/main14.jpg');
+    background: url('images/main06.jpg');
     background-size: cover;
 }
 
@@ -491,17 +484,17 @@ header {
 }
 
 .slick-item-10 {
-    background: url('images/main01.jpg');
+    background: url('images/main07.jpg');
     background-size: cover;
 }
 
 .slick-item-11 {
-    background: url('images/main06.jpg');
+    background: url('images/main08.jpg');
     background-size: cover;
 }
 
 .slick-item-12 {
-    background: url('images/main07.jpg');
+    background: url('images/main09.jpg');
     background-size: cover;
 }
 
