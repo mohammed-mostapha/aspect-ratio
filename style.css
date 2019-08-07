@@ -355,7 +355,7 @@ header {
 
 
 .slick-container {
-    /* height: 15%; */
+    height: 15%;
     box-sizing: border-box;
     overflow: visible !important;
     border: 2px solid green;
