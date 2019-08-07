@@ -225,7 +225,7 @@ $('.slick').slick({
   slidesToShow: 8,
   autoplay: false,
   autoplaySpeed: 1,
-  slidesToScroll: 1,
+  slidesToScroll: 3,
   draggable: true,
   swipe: true,
   touchMove: true,

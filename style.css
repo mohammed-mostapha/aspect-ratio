@@ -399,6 +399,13 @@ header {
 }
 
 
+@media screen and (max-width: 2560px) {
+    .slick-container button {
+        width: 250px;
+    }
+}
+
+
 
 .slick-dots {
     display: none !important;
